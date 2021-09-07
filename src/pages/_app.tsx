@@ -1,3 +1,5 @@
+const foo = 'bla';
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
