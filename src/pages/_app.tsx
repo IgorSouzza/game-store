@@ -1,4 +1,4 @@
-const foo = 'bla';
+const foo = 'blaa';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
