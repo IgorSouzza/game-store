@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-cd src && npx --no-install lint-staged
+cd ./src && npx --no-install lint-staged
