@@ -1,4 +1,5 @@
 import "@testing-library/jest-dom"
+import "jest-styled-components"
 
 Object.defineProperty(window, "matchMedia", {
   writable: true,
