@@ -1,13 +1,13 @@
 import * as S from './styles';
 
-export default function Hello() {
+export default function Hello({ title = 'React Avançado' }) {
   return (
     <S.Wrapper>
       <S.Logo
         src="/img/logo.svg"
         alt="Imagem de um átomo e React Avançado escrito ao lado"
       />
-      <S.Title>React Avançado</S.Title>
+      <S.Title>{title}</S.Title>
       <S.Description>
         Typescript, ReactJS, NextJS e Styled Components
       </S.Description>
